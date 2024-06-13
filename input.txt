@@ -1,0 +1,41 @@
+&media
+cp(2) = 5.191d0,
+cs(2) = 3.876d0,
+cp(1) = 6.053d0,
+cs(1) = 2.309d0,
+rho(1) = 8.72d0,
+rho(2) = 8.72d0,
+h = 5d0
+/
+&study
+mode = 'polar',
+field = 'psp',
+singleW = 6.2831852d0,
+wMin = 10d0,			! для графиков от частоты
+wStep = 1d0, 
+wMax = 100d0,
+singlePsi = 0,
+psiMin = 182d0,
+psiNumber = 352,
+psiStep = 0.5d0,
+singleR = 100d0,    ! в длинах волн
+Rmin = 0d0,
+Rstep = 0d0,
+Rmax = 0d0,
+zSingle = -5d0,
+xMin = 0.1d0,
+xMax = 20d0,
+xStep = 0.1d0,
+xSingle = 50d0
+/
+&dinn5Settings
+t1 = 0d0, 
+t2 = 0d0, 
+t3 = 0d0, 
+t4 = 0d0, 
+tm = 2d-2, 
+tp = 0d0, 
+eps = 1d-6, 
+step = 1d-2, 
+IntLimit = 1d5
+/
